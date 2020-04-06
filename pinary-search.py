@@ -3,7 +3,6 @@
 
 
 def solution(arr, left, right, elem):
-
     if right >= left:
         # if the element is the mid of the array return the mid
         mid = left + (right - left)
@@ -25,6 +24,7 @@ print(solution(arr, left, right, elem))
 
 # using loop
 
+
 def solution2(arr, left, right, elem):
     mid = left + (right - left)
     while right >= left:
@@ -32,8 +32,9 @@ def solution2(arr, left, right, elem):
             return mid
         elif arr[mid] < elem:
             left = mid + 1
-        else :
+        else:
             right = mid - 1
     return -1
+
 
 print(solution2(arr, left, right, elem))
