@@ -17,12 +17,12 @@ def jumbSearch(arr, x):
         if prev > n:
             return -1
 
-# loop from the prev step untill reach the element
+    # loop from the prev step untill reach the element
     while arr[prev] < x:
         prev += 1
         if prev == step:
             return -1
-
+    
     if arr[prev] == x:
         return prev
 

@@ -2,5 +2,6 @@
     "python.linting.pylintEnabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.enabled": true,
+    "lintOnSave":true,
     "python.pythonPath": "/usr/bin/python3.7"
 }
